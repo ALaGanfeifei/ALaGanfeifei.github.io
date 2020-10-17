@@ -308,7 +308,7 @@
         <a href="https://github.com/ALaGanfeifei" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;ALaGanfeifei" rel="noopener external nofollow noreferrer" target="_blank"><i class="github fa-fw"></i>GitHub</a>
       </span>
       <span class="links-of-author-item">
-        <a href="mailto:18883348967@163.com" title="E-Mail → mailto:18883348967@163.com" rel="noopener external nofollow noreferrer" target="_blank"><i class="envelope fa-fw"></i>E-Mail</a>
+        <a href="https://weibo.com/18883348967" title="新浪微博 → https:&#x2F;&#x2F;weibo.com&#x2F;18883348967" rel="noopener external nofollow noreferrer" target="_blank"><i class="weibo fa-fw"></i>新浪微博</a>
       </span>
   </div>
 
@@ -478,6 +478,35 @@ $(document).ready(function() {
   
 
   
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'sYOelA7HqGjL9hfoJwVmIJwV-gzGzoHsz',
+      appKey     : 'g5e5DCmc8LS6BohFSoyWAS8L',
+      placeholder: "给我发消息，评论吧",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>

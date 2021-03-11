@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.alagan.cn/posts/0.html</loc>
+    
+    <lastmod>2021-03-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.alagan.cn/posts/c4d72f3d.html</loc>
     
     <lastmod>2020-11-26</lastmod>
@@ -53,15 +60,22 @@
 
   <url>
     <loc>http://www.alagan.cn/</loc>
-    <lastmod>2021-01-13</lastmod>
+    <lastmod>2021-03-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>http://www.alagan.cn/tags/%E5%86%99%E4%BD%9C/</loc>
+    <lastmod>2021-03-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.alagan.cn/tags/%E5%AD%A6%E7%94%9F%E6%97%B6%E4%BB%A3/</loc>
-    <lastmod>2021-01-13</lastmod>
+    <lastmod>2021-03-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
